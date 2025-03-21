@@ -317,43 +317,13 @@
     "Description": "description of recreational drugs used in last 6 months"
   },
   "edinburgh_hand_l": {
-    "Description": "Edinburgh Handedness Inventory: left-hand",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Assessment",
-        "Label": ""
-      },
-      "IsPartOf": {
-        "TermURL": "cogatlas:tsk_4a57abb949a41",
-        "Label": ""
-      }
-    }
+    "Description": "Edinburgh Handedness Inventory: left-hand"
   },
   "edinburgh_hand_r": {
-    "Description": "Edinburgh Handedness Inventory: right-hand",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Assessment",
-        "Label": ""
-      },
-      "IsPartOf": {
-        "TermURL": "cogatlas:tsk_4a57abb949a41",
-        "Label": ""
-      }
-    }
+    "Description": "Edinburgh Handedness Inventory: right-hand"
   },
   "cesd_r": {
-    "Description": "Centre for Epidemiological Studies Depression Inventory - Revised total score",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Assessment",
-        "Label": ""
-      },
-      "IsPartOf": {
-        "TermURL": "cogatlas:trm_5258346e72223",
-        "Label": ""
-      }
-    }
+    "Description": "Centre for Epidemiological Studies Depression Inventory - Revised total score"
   },
   "bsl": {
     "Description": "Blood sugar level"
