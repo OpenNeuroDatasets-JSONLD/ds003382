@@ -6,7 +6,7 @@
         "TermURL": "nb:ParticipantID",
         "Label": ""
       },
-      "Identifies": "participant"
+      "VariableType": "Identifier"
     }
   },
   "age": {
@@ -16,15 +16,16 @@
         "TermURL": "nb:Age",
         "Label": ""
       },
-      "Transformation": {
-        "TermURL": "nb:FromInt",
-        "Label": "integer data"
-      },
       "MissingValues": [
         "",
         "n/a",
         " "
-      ]
+      ],
+      "Format": {
+        "TermURL": "nb:FromInt",
+        "Label": "integer data"
+      },
+      "VariableType": "Continuous"
     }
   },
   "sex": {
@@ -43,7 +44,8 @@
           "TermURL": "snomed:248153007",
           "Label": ""
         }
-      }
+      },
+      "VariableType": "Categorical"
     }
   },
   "group": {
@@ -79,7 +81,8 @@
       },
       "MissingValues": [
         "no"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "visual_impairment_specify": {
@@ -112,7 +115,8 @@
         " ",
         "nan",
         "n/a"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "mental_illness_history": {
@@ -130,7 +134,8 @@
       },
       "MissingValues": [
         "no"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "mental_illness_specify": {
@@ -163,7 +168,8 @@
         " ",
         "nan",
         "n/a"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "mental_illness_family_history": {
@@ -194,7 +200,8 @@
       },
       "MissingValues": [
         "no"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "cardiovascular": {
@@ -212,7 +219,8 @@
       },
       "MissingValues": [
         "no"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "diabetes": {
@@ -225,7 +233,8 @@
       "Levels": {},
       "MissingValues": [
         "no"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "regular_medication": {
@@ -247,7 +256,8 @@
       "Levels": {},
       "MissingValues": [
         "no"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "previous_smoker": {
@@ -265,7 +275,8 @@
       },
       "MissingValues": [
         "no"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "previous_smoker_specify": {
@@ -298,7 +309,8 @@
         " ",
         "nan",
         "n/a"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "alcohol_drinking_days": {
